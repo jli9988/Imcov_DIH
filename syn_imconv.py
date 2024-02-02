@@ -47,7 +47,7 @@ def generate_hologram(field, kernel, padding_size):
 nx, ny = 256, 256  # Image size
 pixel_size = 10e-6  # Pixel size in meters
 wavelength = 500e-9  # Wavelength of light in meters
-z = 10  # Distance from object plane to hologram plane in meters
+z = 0.1  # Distance from object plane to hologram plane in meters
 padding_size = 50  # Padding size for zero padding
 
 # Create object field and kernel
